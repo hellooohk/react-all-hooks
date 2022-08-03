@@ -1,8 +1,12 @@
 import React from 'react'
+import UseState from './UseState'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div className='App'>
+        <h1>Hooks Demo</h1>
+        <UseState/>
+    </div>
   )
 }
 
