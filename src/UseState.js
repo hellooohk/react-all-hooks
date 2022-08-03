@@ -11,9 +11,9 @@ const UseState = () => {
   return (
     <div className="container">
       <h2>useState Hook</h2>
-      <button onClick={decrement}>-</button>
-      <span>{counter}</span>
-      <button onClick={increment}>+</button>
+      <button  className="btn btn-secondary" onClick={decrement}>-</button>
+      <span className="mx-2">{counter}</span>
+      <button className="btn btn-primary" onClick={increment}>+</button>
     </div>
   );
 };
