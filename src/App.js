@@ -1,5 +1,6 @@
 import React from 'react'
 import UseEffect from './UseEffect'
+import UseReducer from './UseReducer'
 import UseRef from './UseRef'
 import UseState from './UseState'
 
@@ -10,6 +11,7 @@ const App = () => {
         <UseState/>
         <UseEffect/>
         <UseRef/>
+        <UseReducer/>
     </div>
   )
 }
